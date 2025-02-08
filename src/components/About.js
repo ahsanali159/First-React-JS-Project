@@ -1,14 +1,14 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-export default function About() {
+
+export default function About(props) {
   
   
   
   return (
       
-      <div className="container " >
-        <h2 className=" my-3">About Us</h2>
+      <div className="container " style={{color: props.mode=== 'dark'? 'white':'black'}}>
+        <h2 className=" my-3">{props.title}</h2>
     <div className="accordion" id="accordionExample">
       <div className="accordion-item">
         <h2 className="accordion-header" id="headingOne">

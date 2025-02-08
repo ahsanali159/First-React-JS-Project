@@ -61,7 +61,7 @@ function App() {
         <Alert  alert={alert} />
          
         <Textform mode={mode} showAlert={showAlert} title="Enter Text To Analyze" />
-        <About />
+        <About mode={mode} title="About Us" />
        
     
 
