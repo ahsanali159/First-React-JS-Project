@@ -1,9 +1,13 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function About() {
+  
+  
+  
   return (
       
-      <div className="container ">
+      <div className="container " >
         <h2 className=" my-3">About Us</h2>
     <div className="accordion" id="accordionExample">
       <div className="accordion-item">
@@ -43,6 +47,7 @@ export default function About() {
         </div>
       </div>
     </div>
+
   </div>
   );
 }
